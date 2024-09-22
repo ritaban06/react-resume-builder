@@ -1,5 +1,5 @@
 import React from 'react'
-// import resumeSvg from "../../assets/resume.svg"
+import resumeSvg from "../../assets/resume.svg"
 import styles from "./Header.module.css"
 function Header() {
   return (
@@ -13,7 +13,7 @@ function Header() {
         </p>
         </div>
         <div className={styles.right}>
-            <img src= {resumeSvg} alt="Resume" />
+           <img src= {resumeSvg} alt="Resume" />
             </div>   
     </div>
   )
